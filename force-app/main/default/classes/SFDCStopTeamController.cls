@@ -38,6 +38,14 @@ public class SFDCStopTeamController {
                 'https://trailblazer.me/id/rahulmalhotra'
             )
         );
+        sfdcstopContributors.add(
+            new Contributor(
+                'Kriti Maheshwary',
+                'https://avatars3.githubusercontent.com/u/28749794?s=460&v=4    ',
+                Date.newInstance(2020, 06, 29),
+                'https://trailblazer.me/id/kritimaheshwary'
+            )
+        );
         return JSON.serialize(sfdcstopContributors);
     }
 }
